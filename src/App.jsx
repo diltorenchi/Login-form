@@ -49,7 +49,7 @@ function App() {
           </div>
 
         </div>
-        <div className="mb-3 d-flex justify-content-between">
+        <div id='butt' className="mb-3 d-flex justify-content-between align-items-center">
           <Button id='reset' variant="outlined" color='secondary' style={{height:'60px', width:'190px'}}>Cancel</Button>
           <Button id='sub'  variant="contained" color='success' style={{height:'60px', width:'190px'}} type='submit'>Sign In</Button>
           </div>
